@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFF8B</color>
+    <color name="colorPrimaryDark">#403D99</color>
+    <color name="colorAccent">#8DA1E5</color>
+
+    // logo colours
+    // yellow #FFFF8B
+    // bluepurple #8DA1E5
+    // darkblue #403D99
+
+</resources>
+
+

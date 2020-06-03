@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Swift Fix</string>
+    <string name="title_activity_tradesman_map">Map</string>
+    <string name="title_activity_customer_map">Map</string>
+</resources>

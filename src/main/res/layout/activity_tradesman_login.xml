@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        tools:context=".TradesmanLoginActivity"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <!-- https://sourcey.com/articles/beautiful-android-login-and-signup-screens-with-material-design -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/tradesman_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yesteryear"
+            android:gravity="center_horizontal"
+            android:text="Tradesman"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tradesman_status2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:id="@+id/tradesman_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/tradesman_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"
+            android:layout_margin="6dp">
+
+            <RadioButton
+                android:id="@+id/plumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plumber"
+                android:textColor="@color/colorPrimaryDark"
+                android:buttonTint="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/electrician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrician"
+                android:textColor="@color/colorPrimaryDark"
+                android:buttonTint="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/builder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Builder"
+                android:textColor="@color/colorPrimaryDark"
+                android:buttonTint="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/gardener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gardener"
+                android:textColor="@color/colorPrimaryDark"
+                android:buttonTint="@color/colorPrimaryDark" />
+
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/tradesman_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:hint="Email"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/tradesman_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/tradesman_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="Login"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/tradesman_registration"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="Register"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/register_tradesman_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Don't have an Account? Register here..."
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tradesman_login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Already have an account? Login here..."
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/yesteryear"
+                android:gravity="center"
+                android:text="Swift"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp" />
+
+            <!--- This not showing -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:text="Fix"
+                android:textColor="@color/colorAccent"
+
+                android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

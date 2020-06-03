@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "53521686267",
+    "firebase_url": "https://swift-fix-application.firebaseio.com",
+    "project_id": "swift-fix-application",
+    "storage_bucket": "swift-fix-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53521686267:android:2899b4b33c43aa1edc5a5e",
+        "android_client_info": {
+          "package_name": "swift.fix.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53521686267-ju7v9k3u9cktmbfcp9bvvbrhl06qq5c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "swift.fix.application",
+            "certificate_hash": "176b94a85797928a86ab7a37af03cf7b08e824f9"
+          }
+        },
+        {
+          "client_id": "53521686267-slla5fearnhutupl9fsv0piamv1g2ge0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzc7gsW2qkX7vTn6g-7gYLGp5z3K6qEfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53521686267-slla5fearnhutupl9fsv0piamv1g2ge0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
